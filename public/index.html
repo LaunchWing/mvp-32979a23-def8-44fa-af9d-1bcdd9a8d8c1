@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResumeAI - Crafting Your Future, One Template at a Time</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <header class="bg-blue-500 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <img src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-eeM7RLe3Wv2HZ7Toub47POas/user-rnGwZEmjnwoUoF8lEvadvt0O/img-bSW95CFEHscLaThbt7Hqfcdl.png?st=2025-08-05T23%3A37%3A57Z&se=2025-08-06T01%3A37%3A57Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=cc612491-d948-4d2e-9821-2683df3719f5&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-05T14%3A12%3A58Z&ske=2025-08-06T14%3A12%3A58Z&sks=b&skv=2024-08-04&sig=ha0atF9oM0yOAPiTfD8BLP9PzO3NV0Jkg/Pdmp6C3X8%3D" alt="ResumeAI Logo" class="h-12">
+            <h1 class="text-white text-xl font-bold">ResumeAI</h1>
+        </div>
+    </header>
+
+    <main class="container mx-auto mt-8 p-4">
+        <h2 class="text-2xl font-bold text-center mb-4">Crafting Your Future, One Template at a Time</h2>
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+            <p class="mb-4">Welcome to ResumeAI, where technology meets creativity to help you build the perfect resume. Get started by entering your details below:</p>
+            <form id="resumeForm" class="space-y-4">
+                <div>
+                    <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                    <input type="text" id="name" name="name" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2">
+                </div>
+                <div>
+                    <label for="careerField" class="block text-sm font-medium text-gray-700">Career Field</label>
+                    <input type="text" id="careerField" name="careerField" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2">
+                </div>
+                <div>
+                    <label for="experienceLevel" class="block text-sm font-medium text-gray-700">Experience Level</label>
+                    <select id="experienceLevel" name="experienceLevel" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2">
+                        <option value="entry">Entry Level</option>
+                        <option value="mid">Mid Level</option>
+                        <option value="senior">Senior Level</option>
+                    </select>
+                </div>
+                <button type="submit" class="w-full bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-600">Generate Resume</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="bg-blue-500 p-4 mt-8">
+        <div class="container mx-auto text-center text-white">
+            &copy; 2023 ResumeAI. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

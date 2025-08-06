@@ -1,0 +1,11 @@
+name = "32979a23-def8-44fa-af9d-1bcdd9a8d8c1"
+account_id = "6ec57290cbb52c27cda0bd089bae05a0"
+compatibility_date = "2024-01-01"
+main = "functions/index.ts"
+usage_model = "bundled"
+
+[site]
+bucket = "./public"
+
+[env.production]
+workers_dev = true
